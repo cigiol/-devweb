@@ -1,3 +1,13 @@
+<head>
+<style>
+  .field{
+     text-align:center;
+      background-color:#00bfff;
+      border:2px solid #660066;
+      border-radius:10px 40px;
+  }
+</style>
+</head>
 <%= form_for(@post) do |f| %>
   <% if @post.errors.any? %>
     <div id="error_explanation">
